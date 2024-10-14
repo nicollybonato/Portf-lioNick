@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFAw2uOS3QABg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1692116378804?e=2147483647&v=beta&t=sPGpYT_69G4XHKoAkqheOoJFsOXoBCnus4X02_29aeE" alt="foto de Nicolly" class="rounded-circle" width="150" height="150">
+        <p class="lead">Eu sou Nicolly</p>
+        <h1>Essas são minhas memórias colegiais</h1>
+        <p>Como a maioria das crianças, estudo desde meus 4 anos e neste meio tempo desenvolvi diversas memórias, quais marcam minha vida e têm participação crucial em quem sou, no que acredito e no caráter que possuo. Observe uma pequena parcela destes 11 anos!</p>
+        <p>Minha história em segmentos...</p>
+        <div>
+            <select class="form-select" aria-label="Selecione suas habilidades">
+                <option selected>Selecione um segmento</option>
+                <option value="1">Ensino Fundamental (Colégio Municipal)</option>
+                <option value="2">Ensino Fundamental (Colégio Estadual)</option>
+                <option value="3">Ensino Médio (Colégio Estadual)</option>
+            </select>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Memórias...</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="E:\Users\User\Downloads\dee70924-a8d3-45e4-98b0-28eddf74ecb0 (1).jfif" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Ensino fundamental (Colégio Municipal)</h5>
+                        <p class="card-text">Uma jornada curta e crucial! Isso resume a imensa gratidão que tenho por ter o privilégio de vivenciar minha infância em uma escola capacitada e acolhedora!</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Saiba mais sobre está memória</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="e:\Users\User\Desktop\ProjetoPortifólio\Capa p.2.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Ensino Fundamental (Colégio Estadual)</h5>
+                        <p class="card-text">Os mais velhos se tornaram os mais novos e um ciclo de muitos erros e acertos começou. Novos amigos, novas matérias, novos cadernos e nova maneira de ver o mundo!</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Saiba mais sobre está memória</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="e:\Users\User\Downloads\128638f8-76ee-459b-bd09-fe8c87c70759.jfif" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Ensino Médio (Colégio Estadual)</h5>
+                        <p class="card-text">O início do fim! É essa a sensação de estar na contagem regressiva para completar o ensino médio. Aqui já surgiram irmãos ao invés de amigos e o medo de fracassar é maior, mas enquanto isso vamos rir e continuar criando memórias!</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Saiba mais sobre está memória</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O começo do desenvolvimento social, de novas habilidades, aprimoramento de coordenação motora e o aprendizado das mais diversas coisas essenciais como escrever ou ler, tudo isso começou na Escola Municipal Professora Nathália de Conto Costa! Os momentos por lá foram inesquecíveis, desde os colegas e amigos que muitos ainda mantenho o contato e a amizade de mais de 11 anos, os professores que acabei criando enorme carinho e até mesmo as reuniões de representante de classe onde parecíamos adultos. 
+                        Essa não foi somente uma fase, mas sim, o começo de uma história que dependeu da equipe do "Nathália" para chegar aqui e seguir a diante, até o infinito? É uma incógnita, mas a certeza é que cada semana das crianças com fantasia, cada festa junina e cada brincadeira no parque saindo cheia de areia, vai ficar para sempre em minhas memórias e como parte crucial para a minha infância ser recordada como algo positivo!</p>
+                    <img src="e:\Users\User\Downloads\b7c8c20e-85f0-4504-8473-610b4c04e6e3.jfif" class="img-fluid w-100" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Decidindo o Futuro: Uma Jornada Interativa sobre a Inteligência Artificial</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Foi aqui que o lápis se tornou caneta e acabei descobrindo que a adulta que eu pensava que era, na verdade não estava nem perto desta realidade. Sair de uma escola onde sua turma é a dos mais velhos e ir para outra onde são os mais novos é assustador, mas não ser a única é reconfortante!
+                        Foi assim que iniciei, aos 10 anos, minha vida no Colégio Estadual Padre Cláudio Morelli, onde passei um turbulento resto de ensino fundamental. Com pandemia, guerra e equação do primeiro grau consegui me sair muito bem, passei por diversos grupos de amigos, criei ligações de outro mundo, dei muitas risadas mas confesso que chorei em vários momentos. 
+                        Dentre tudo isso me apaixonei pelo vôlei enquanto assistia o ensino médio jogando nos intervalos, comecei a gostar de comer polenta as 10hrs da manhã, tive aulas online, fiz amizade com a tia do portão e descobrir que gosto de exatas.
+                        E foi assim, até o 9° ano, onde o fundamental se encerrou, fechando uma porta de milhões de erros, mas de muito mais aprendizado, fazendo com que a próxima fase colegial tenha mais chance de sucesso!</p>
+                    <img src="e:\Users\User\Downloads\037c8a71-9270-492b-b49b-27e00f3a7e9a.jfif" class="img-fluid w-100" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Explorando o Universo: Uma Aventura Interativa em Astronomia com Scratch</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Mesmo colégio, novas matérias, novos professores e inclusive um novo ensino médio! Aqui se iniciaram momentos inesquecíveis, com amigos que estudavam comigo á tempos e uma liberdade maior. A educação física passou a ser engraçada com os meninos aprendendo a dançar, eu completei 15 anos e pude reunir pessoas importantes que estavam na minha sala, passei a ter conversas muito mais profundas com os meninos e criei um grupo, não de amigos, mas de irmãos!
+                        Este ano (2024), mudaram muitas coisas mas a realidade do ensino médio continua, com as tentativas de redação, as cobranças de vestibular e a grande indecisão: qual faculdade fazer? E assim continuo, esperando pelas certezas e incertezas que o último ano me trará, e ansiando pelo fim desta éra!</p>
+                    <img src="e:\Users\User\Downloads\9172c7ed-923b-4df9-99f9-7f92a531758d.jfif" class="img-fluid w-100" alt="Projeto 3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/nicollybonato">GitHub</a>
+        </div>
+        <p class="my-5 text-center">Produzido por Nicolly Bonato, n°35 2°C</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
