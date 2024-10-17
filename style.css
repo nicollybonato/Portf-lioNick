@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor-principal: #000000;
+    --cor-secundaria: rgb(255, 255, 255);
+    --cor-destaque: #ff00c8;
+}
+
+.dropdown-toggle {
+    background-color: #ffaff3; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+}
+
+.dropdown-menu {
+    background-color: #ffffff; /* Cor do fundo do menu */
+}
+
+.dropdown-item {
+    color: #ffc6fb; /* Cor do texto dos itens */
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa; /* Cor ao passar o mouse */
+}
+
+.retangulo {
+    background-color: #ffffff; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    color: #000; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+    margin: 20px 0; /* Margem em cima e embaixo */
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+    background-color: rgb(255, 175, 222); /* Adicionando a cor de fundo rosa */
+}
+
+header {
+    background-color: #f172d5; /* Cor do fundo do cabeçalho */
+}
+
+.contato {
+    margin-top: 40px;  /* Espaço acima da seção de contato */
+    margin-bottom: 40px; /* Espaço abaixo da seção de contato */
+}
+
+footer {
+    background-color: white; /* Cor do fundo do rodapé */
+    margin-top: 20px;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal);
+}
+
+a:hover {
+    color: var(--cor-destaque);
+}
